@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hugo Theme MemE</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-06-28T14:56:50&#43;02:00</updated>
+    <updated>2020-06-28T21:00:05&#43;02:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -17,24 +17,22 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator>
         <entry>
-            <title type="text">Hello World New</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-second-post/" />
-            <id>https://example.com/posts/2020-06-28-second-post/</id>
-            <updated>2020-06-28T14:55:30&#43;02:00</updated>
-            <published>2020-06-28T12:11:28&#43;02:00</published>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-hello-world/" />
+            <id>https://example.com/posts/2020-06-28-hello-world/</id>
+            <updated>2020-06-28T20:59:26&#43;02:00</updated>
+            <published>2020-06-28T10:11:28&#43;02:00</published>
             <author>
                     <name>reuixiy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is the first post to my personal blog.
-´´´ echo &amp;ldquo;Hello, world!&amp;rdquo; ´´´</summary>
+echo &amp;quot;Hello, world!&amp;quot; </summary>
             
                 <content type="html">&lt;p&gt;This is the first post to my personal blog.&lt;/p&gt;
-&lt;p&gt;´´´
-echo &amp;ldquo;Hello, world!&amp;rdquo;
-´´´&lt;/p&gt;
-</content>
+&lt;pre&gt;&lt;code&gt;echo &amp;quot;Hello, world!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;</content>
             
             
             
@@ -49,23 +47,48 @@ echo &amp;ldquo;Hello, world!&amp;rdquo;
         </entry>
     
         <entry>
-            <title type="text">Hello World</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-hello-world/" />
-            <id>https://example.com/posts/2020-06-28-hello-world/</id>
-            <updated>2020-06-28T14:50:53&#43;02:00</updated>
-            <published>2020-06-28T10:11:28&#43;02:00</published>
+            <title type="text">Hello Hugo!</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-second-post/" />
+            <id>https://example.com/posts/2020-06-28-second-post/</id>
+            <updated>2020-06-28T20:58:54&#43;02:00</updated>
+            <published>2014-09-01T00:00:00&#43;00:00</published>
             <author>
                     <name>reuixiy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is the first post to my personal blog.
-´´´ echo &amp;ldquo;Hello, world!&amp;rdquo; ´´´</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Saying &#39;Hello&#39; from Hugo</summary>
             
-                <content type="html">&lt;p&gt;This is the first post to my personal blog.&lt;/p&gt;
-&lt;p&gt;´´´
-echo &amp;ldquo;Hello, world!&amp;rdquo;
-´´´&lt;/p&gt;
+                <content type="html">&lt;p&gt;Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; has been
+converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?&lt;/p&gt;
+&lt;h2 id=&#34;a-section&#34;&gt;A Section&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a simple titled section where you can place whatever information you want.&lt;/p&gt;
+&lt;p&gt;You can use inline HTML if you want, but really there&amp;rsquo;s not much that Markdown can&amp;rsquo;t do.&lt;/p&gt;
+&lt;h2 id=&#34;showing-off-with-markdown&#34;&gt;Showing off with Markdown&lt;/h2&gt;
+&lt;p&gt;A full cheat sheet can be found &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;here&lt;/a&gt;
+or through &lt;a href=&#34;https://google.com/&#34;&gt;Google&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are some &lt;em&gt;easy&lt;/em&gt; examples for styling, though. I can&amp;rsquo;t &lt;strong&gt;emphasize&lt;/strong&gt; that enough.
+Creating &lt;a href=&#34;https://google.com/&#34;&gt;links&lt;/a&gt; or &lt;code&gt;inline code&lt;/code&gt; blocks are very straightforward.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;There are some *easy* examples for styling, though. I can&#39;t **emphasize** that enough.
+Creating [links](https://google.com/) or `inline code` blocks are very straightforward.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;front-matter-for-fun&#34;&gt;Front Matter for Fun&lt;/h2&gt;
+&lt;p&gt;This is the meta data for this post. It is located at the top of the &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; markdown file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Hello Hugo!&amp;quot;
+description: &amp;quot;Saying &#39;Hello&#39; from Hugo&amp;quot;
+date: &amp;quot;2014-09-01&amp;quot;
+categories:
+  - &amp;quot;example&amp;quot;
+  - &amp;quot;hello&amp;quot;
+tags:
+  - &amp;quot;example&amp;quot;
+  - &amp;quot;hugo&amp;quot;
+  - &amp;quot;blog&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This section, called &amp;lsquo;Front Matter&amp;rsquo;, is what tells Hugo about the content in this file: the &lt;code&gt;title&lt;/code&gt; of the item, the
+&lt;code&gt;description&lt;/code&gt;, and the &lt;code&gt;date&lt;/code&gt; it was posted. In our example, we&amp;rsquo;ve added two custom bits of data too. The &lt;code&gt;categories&lt;/code&gt; and
+&lt;code&gt;tags&lt;/code&gt; sections are used in this example for indexing/grouping content. You will learn more about what that means by
+examining the code in this example and through reading the Hugo &lt;a href=&#34;http://gohugo.io/overview/introduction&#34;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 </content>
             
             
@@ -74,7 +97,41 @@ echo &amp;ldquo;Hello, world!&amp;rdquo;
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/example/" term="example" label="example" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/hello/" term="hello" label="hello" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/example/" term="example" label="example" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/hugo/" term="hugo" label="hugo" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/blog/" term="blog" label="blog" />
+                            
+                        
                     
                 
             
