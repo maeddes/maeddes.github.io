@@ -23,10 +23,38 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 28 Jun 2020 14:53:36 &#43;0200</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2020 14:56:50 &#43;0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>Hello World New</title>
+                <link>https://example.com/posts/2020-06-28-second-post/</link>
+                <guid isPermaLink="true">https://example.com/posts/2020-06-28-second-post/</guid>
+                <pubDate>Sun, 28 Jun 2020 12:11:28 &#43;0200</pubDate>
+                
+                    <author>reuixiy@gmail.com (reuixiy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;This is the first post to my personal blog.&lt;/p&gt;
+&lt;p&gt;´´´
+echo &amp;ldquo;Hello, world!&amp;rdquo;
+´´´&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Hello World</title>
