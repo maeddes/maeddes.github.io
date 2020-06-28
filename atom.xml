@@ -2,30 +2,30 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Hugo Theme MemE</title>
+    <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-06-28T21:00:05&#43;02:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2020-06-28T21:07:45&#43;02:00</updated>
+    <id>https://maeddes.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
     <author>
-            <name>reuixiy</name>
-            <uri>https://example.com/</uri>
+            <name>maeddes</name>
+            <uri>https://maeddes.github.io/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>maeddes@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator>
         <entry>
             <title type="text">Hello World</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-hello-world/" />
-            <id>https://example.com/posts/2020-06-28-hello-world/</id>
+            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-hello-world/" />
+            <id>https://maeddes.github.io/posts/2020-06-28-hello-world/</id>
             <updated>2020-06-28T20:59:26&#43;02:00</updated>
             <published>2020-06-28T10:11:28&#43;02:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>maeddes</name>
+                    <uri>https://maeddes.github.io/</uri>
+                    <email>maeddes@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is the first post to my personal blog.
 echo &amp;quot;Hello, world!&amp;quot; </summary>
@@ -48,14 +48,14 @@ echo &amp;quot;Hello, world!&amp;quot; </summary>
     
         <entry>
             <title type="text">Hello Hugo!</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/2020-06-28-second-post/" />
-            <id>https://example.com/posts/2020-06-28-second-post/</id>
+            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-second-post/" />
+            <id>https://maeddes.github.io/posts/2020-06-28-second-post/</id>
             <updated>2020-06-28T20:58:54&#43;02:00</updated>
             <published>2014-09-01T00:00:00&#43;00:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>maeddes</name>
+                    <uri>https://maeddes.github.io/</uri>
+                    <email>maeddes@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Saying &#39;Hello&#39; from Hugo</summary>
             
@@ -101,13 +101,13 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                             
                             
                             
-                                <category scheme="https://example.com/categories/example/" term="example" label="example" />
+                                <category scheme="https://maeddes.github.io/categories/example/" term="example" label="example" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/hello/" term="hello" label="hello" />
+                                <category scheme="https://maeddes.github.io/categories/hello/" term="hello" label="hello" />
                             
                         
                     
@@ -117,19 +117,19 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                             
                             
                             
-                                <category scheme="https://example.com/tags/example/" term="example" label="example" />
+                                <category scheme="https://maeddes.github.io/tags/example/" term="example" label="example" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/hugo/" term="hugo" label="hugo" />
+                                <category scheme="https://maeddes.github.io/tags/hugo/" term="hugo" label="hugo" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/blog/" term="blog" label="blog" />
+                                <category scheme="https://maeddes.github.io/tags/blog/" term="blog" label="blog" />
                             
                         
                     

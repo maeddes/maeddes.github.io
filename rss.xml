@@ -7,34 +7,34 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo Theme MemE</title>
-        <link>https://example.com/</link>
+        <title>Experimental Blog</title>
+        <link>https://maeddes.github.io/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.73.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
         
-            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+            <managingEditor>maeddes@gmail.com (maeddes)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+            <webMaster>maeddes@gmail.com (maeddes)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 28 Jun 2020 21:00:05 &#43;0200</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2020 21:07:45 &#43;0200</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://maeddes.github.io/rss.xml" />
         
         
             <item>
                 <title>Hello World</title>
-                <link>https://example.com/posts/2020-06-28-hello-world/</link>
-                <guid isPermaLink="true">https://example.com/posts/2020-06-28-hello-world/</guid>
+                <link>https://maeddes.github.io/posts/2020-06-28-hello-world/</link>
+                <guid isPermaLink="true">https://maeddes.github.io/posts/2020-06-28-hello-world/</guid>
                 <pubDate>Sun, 28 Jun 2020 10:11:28 &#43;0200</pubDate>
                 
-                    <author>reuixiy@gmail.com (reuixiy)</author>
+                    <author>maeddes@gmail.com (maeddes)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
@@ -56,11 +56,11 @@
         
             <item>
                 <title>Hello Hugo!</title>
-                <link>https://example.com/posts/2020-06-28-second-post/</link>
-                <guid isPermaLink="true">https://example.com/posts/2020-06-28-second-post/</guid>
+                <link>https://maeddes.github.io/posts/2020-06-28-second-post/</link>
+                <guid isPermaLink="true">https://maeddes.github.io/posts/2020-06-28-second-post/</guid>
                 <pubDate>Mon, 01 Sep 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (reuixiy)</author>
+                    <author>maeddes@gmail.com (maeddes)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 
@@ -106,13 +106,13 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/example/">example</category>
+                                    <category domain="https://maeddes.github.io/categories/example/">example</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/hello/">hello</category>
+                                    <category domain="https://maeddes.github.io/categories/hello/">hello</category>
                                 
                             
                         
@@ -122,19 +122,19 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/example/">example</category>
+                                    <category domain="https://maeddes.github.io/tags/example/">example</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/hugo/">hugo</category>
+                                    <category domain="https://maeddes.github.io/tags/hugo/">hugo</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/blog/">blog</category>
+                                    <category domain="https://maeddes.github.io/tags/blog/">blog</category>
                                 
                             
                         
