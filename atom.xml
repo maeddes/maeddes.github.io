@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-07-13T12:51:21&#43;02:00</updated>
+    <updated>2020-07-13T12:58:50&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Essential step to set of cf-for-k8s</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
             <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
-            <updated>2020-07-13T12:51:03&#43;02:00</updated>
+            <updated>2020-07-13T12:56:11&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
@@ -189,6 +189,10 @@ No apps found
 5032:31747/TCP,15443:31146/TCP  
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl get events -n istio-system
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;55s         Warning   SyncLoadBalancerFailed         service/istio-ingressgateway                   Error syncing load balancer: failed to ensure load balancer: user supplied IP Address 20.50.15.52 was not found in resource group mc_dev-kundenplattform-rg-mhs_dev-kundenplattform-aks-mhs_westeurope
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm repo add minibroker https://minibroker.blob.core.windows.net/charts
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&amp;quot;minibroker&amp;quot; has been added to your repositories
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl create namespace minibroker
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;namespace/minibroker created
 &lt;/code&gt;&lt;/pre&gt;</content>
             
             

@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 13 Jul 2020 12:51:21 &#43;0200</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2020 12:58:50 &#43;0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://maeddes.github.io/rss.xml" />
         
@@ -198,6 +198,10 @@ No apps found
 5032:31747/TCP,15443:31146/TCP  
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl get events -n istio-system
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;55s         Warning   SyncLoadBalancerFailed         service/istio-ingressgateway                   Error syncing load balancer: failed to ensure load balancer: user supplied IP Address 20.50.15.52 was not found in resource group mc_dev-kundenplattform-rg-mhs_dev-kundenplattform-aks-mhs_westeurope
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm repo add minibroker https://minibroker.blob.core.windows.net/charts
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&amp;quot;minibroker&amp;quot; has been added to your repositories
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl create namespace minibroker
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;namespace/minibroker created
 &lt;/code&gt;&lt;/pre&gt;</description>
                 
                 
