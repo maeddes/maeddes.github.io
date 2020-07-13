@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-07-13T12:58:50&#43;02:00</updated>
+    <updated>2020-07-13T13:08:50&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Essential step to set of cf-for-k8s</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
             <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
-            <updated>2020-07-13T12:56:11&#43;02:00</updated>
+            <updated>2020-07-13T13:08:08&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
@@ -193,6 +193,21 @@ No apps found
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&amp;quot;minibroker&amp;quot; has been added to your repositories
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl create namespace minibroker
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;namespace/minibroker created
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf create-service-broker minibroker user pass http://minibroker-minibroker.minibroker.svc.cluster.local
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Creating service broker minibroker as admin...
+OK
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf enable-service-access mariadb
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Enabling access to all plans of service mariadb for all orgs as admin...
+OK
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf marketplace
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Getting services from marketplace in org system / space dev as admin...
+OK
+
+service   plans                                                                                                                                                                                                                    description              broker
+mariadb   10-3-21, 10-3-18, 10-3-17, 10-1-38, 10-1-34, 10-1-28, 10-3-22, 10-3-20, 10-3-15, 10-1-40, 10-1-39, 10-1-36, 10-1-31, 10-3-16, 10-1-37, 10-1-35, 10-1-34-debian-9, 10-3-14, 10-1-33, 10-1-32, 10-1-30, 10-1-29, 10-1-26   Helm Chart for mariadb   minibroker
+
+TIP: Use &#39;cf marketplace -s SERVICE&#39; to view descriptions of individual plans of a given service.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf service-access
 &lt;/code&gt;&lt;/pre&gt;</content>
             
             
