@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-06-28T21:17:53&#43;02:00</updated>
+    <updated>2020-07-13T11:57:33&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -17,21 +17,163 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.73.0">Hugo</generator>
         <entry>
-            <title type="text">Hello World</title>
-            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-hello-world/" />
-            <id>https://maeddes.github.io/posts/2020-06-28-hello-world/</id>
-            <updated>2020-06-28T20:59:26&#43;02:00</updated>
-            <published>2020-06-28T10:11:28&#43;02:00</published>
+            <title type="text">Essential step to set of cf-for-k8s</title>
+            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
+            <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
+            <updated>2020-07-13T11:55:26&#43;02:00</updated>
+            <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
                     <uri>https://maeddes.github.io/</uri>
                     <email>maeddes@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is the first post to my personal blog.
-echo &amp;quot;Hello, world!&amp;quot; </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">no further description</summary>
             
-                <content type="html">&lt;p&gt;This is the first post to my personal blog.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;echo &amp;quot;Hello, world!&amp;quot;
+                <content type="html">&lt;p&gt;Identify IP address and domain name (using xip.io in this example)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$./hack/generate-values.sh -d 1.2.3.4.xip.io &amp;gt; cf-values.yaml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Edit head&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ head cf-values.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;c&#34;&gt;#@data/values&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;system_domain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1.2.3.4.xip.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;app_domains&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#@overlay/append&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;apps.1.2.3.4.xip.io&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;c&#34;&gt;#@data/values&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;---&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;system_domain&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;system.local-cf.org&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;app_domains&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#@overlay/append&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;s2&#34;&gt;&amp;#34;apps.system.local-cf.org&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ tail cf-values.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;-----END&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;CERTIFICATE----&lt;span class=&#34;sd&#34;&gt;-
+&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;app_registry:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;hostname&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;https&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;//index.docker.io/v1/&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;repository&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;maeddes&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;username&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;maeddes&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;password&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;xxxx&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ ytt -f config -f ./cf-values.yml &amp;gt; kapp-rendered.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;kapp deploy -a cf -f kapp-rendered.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;pre&gt;&lt;code&gt;11:08:02PM: ---- applying complete [1/1 done] ----
+11:08:02PM: ---- waiting complete [1/1 done] ----
+
+Succeeded
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf api --skip-ssl-validation https://api.system.local-cf.org
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Setting api endpoint to https://api.system.local-cf.org...
+OK
+
+api endpoint:   https://api.system.local-cf.org
+api version:    2.152.0
+Not logged in. Use &#39;cf login&#39; or &#39;cf login --sso&#39; to log in.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf auth admin r82iguu4zkx5fnj8p44t
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;API endpoint: https://api.system.local-cf.org
+Authenticating...
+OK
+
+Use &#39;cf target&#39; to view or set your target org and space.
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf create-space dev -o system
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Creating space dev in org system as admin...
+OK
+
+Assigning role SpaceManager to user admin in org system / space dev as admin...
+OK
+
+Assigning role SpaceDeveloper to user admin in org system / space dev as admin...
+OK
+
+TIP: Use &#39;cf target -o &amp;quot;system&amp;quot; -s &amp;quot;dev&amp;quot;&#39; to target new space
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf target -o &amp;quot;system&amp;quot; -s &amp;quot;dev&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;api endpoint:   https://api.system.local-cf.org
+api version:    2.152.0
+user:           admin
+org:            system
+space:          dev
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf apps
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Getting apps in org system / space dev as admin...
+OK
+
+No apps found
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Validation Ingress&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;kubectl get svc -n istio-system
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;istio-system   service/istio-ingressgateway        LoadBalancer   10.98.204.38     &amp;lt;pending&amp;gt;     15020:31346/TCP,80:30050/TCP,443:30536/TCP,15029:31162/TCP,15030:31604/TCP,15031:31279/TCP,1
+5032:31747/TCP,15443:31146/TCP  
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl get events -n istio-system
+
+55s         Warning   SyncLoadBalancerFailed         service/istio-ingressgateway                   Error syncing load balancer: failed to ensure load balancer: user supplied IP Address 20.50.15.52 was not found in resource group mc_dev-kundenplattform-rg-mhs_dev-kundenplattform-aks-mhs_westeurope
 &lt;/code&gt;&lt;/pre&gt;</content>
             
             
@@ -40,7 +182,47 @@ echo &amp;quot;Hello, world!&amp;quot; </summary>
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/categories/platform/" term="platform" label="platform" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/cloudfoundry/" term="cloudfoundry" label="cloudfoundry" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/cf-for-k8s/" term="cf-for-k8s" label="cf-for-k8s" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/kubernetes/" term="kubernetes" label="kubernetes" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/install/" term="install" label="install" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/config/" term="config" label="config" />
+                            
+                        
                     
                 
             
@@ -50,8 +232,8 @@ echo &amp;quot;Hello, world!&amp;quot; </summary>
             <title type="text">Markdown Syntax Guide</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-markdown-syntax-guide/" />
             <id>https://maeddes.github.io/posts/2020-06-28-markdown-syntax-guide/</id>
-            <updated>2020-06-28T21:16:30&#43;02:00</updated>
-            <published>2019-03-11T00:00:00&#43;00:00</published>
+            <updated>2020-07-05T23:07:04&#43;02:00</updated>
+            <published>2020-06-26T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
                     <uri>https://maeddes.github.io/</uri>
@@ -284,19 +466,22 @@ echo &amp;quot;Hello, world!&amp;quot; </summary>
         </entry>
     
         <entry>
-            <title type="text">Hello Hugo!</title>
-            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-second-post/" />
-            <id>https://maeddes.github.io/posts/2020-06-28-second-post/</id>
-            <updated>2020-06-28T20:58:54&#43;02:00</updated>
-            <published>2014-09-01T00:00:00&#43;00:00</published>
+            <title type="text">Hello New World</title>
+            <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-06-28-hello-world/" />
+            <id>https://maeddes.github.io/posts/2020-06-28-hello-world/</id>
+            <updated>2020-07-05T23:07:15&#43;02:00</updated>
+            <published>2020-06-25T10:11:28&#43;02:00</published>
             <author>
                     <name>maeddes</name>
                     <uri>https://maeddes.github.io/</uri>
                     <email>maeddes@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Saying &#39;Hello&#39; from Hugo</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is the first post to my personal experimantal blog.
+echo &amp;quot;Hello, world!&amp;quot; Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file content/post/hello-hugo.md has been converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?</summary>
             
-                <content type="html">&lt;p&gt;Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; has been
+                <content type="html">&lt;p&gt;This is the first post to my personal experimantal blog.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo &amp;quot;Hello, world!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hello from Hugo! If you&amp;rsquo;re reading this in your browser, good job! The file &lt;code&gt;content/post/hello-hugo.md&lt;/code&gt; has been
 converted into a complete HTML document by Hugo. Isn&amp;rsquo;t that pretty nifty?&lt;/p&gt;
 &lt;h2 id=&#34;a-section&#34;&gt;A Section&lt;/h2&gt;
 &lt;p&gt;Here&amp;rsquo;s a simple titled section where you can place whatever information you want.&lt;/p&gt;
@@ -338,13 +523,13 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                             
                             
                             
-                                <category scheme="https://maeddes.github.io/categories/example/" term="example" label="example" />
+                                <category scheme="https://maeddes.github.io/categories/themes/" term="themes" label="themes" />
                             
                         
                             
                             
                             
-                                <category scheme="https://maeddes.github.io/categories/hello/" term="hello" label="hello" />
+                                <category scheme="https://maeddes.github.io/categories/syntax/" term="syntax" label="syntax" />
                             
                         
                     
@@ -354,19 +539,25 @@ examining the code in this example and through reading the Hugo &lt;a href=&#34;
                             
                             
                             
-                                <category scheme="https://maeddes.github.io/tags/example/" term="example" label="example" />
+                                <category scheme="https://maeddes.github.io/tags/markdown/" term="markdown" label="markdown" />
                             
                         
                             
                             
                             
-                                <category scheme="https://maeddes.github.io/tags/hugo/" term="hugo" label="hugo" />
+                                <category scheme="https://maeddes.github.io/tags/css/" term="css" label="css" />
                             
                         
                             
                             
                             
-                                <category scheme="https://maeddes.github.io/tags/blog/" term="blog" label="blog" />
+                                <category scheme="https://maeddes.github.io/tags/html/" term="html" label="html" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://maeddes.github.io/tags/themes/" term="themes" label="themes" />
                             
                         
                     
