@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-07-13T12:48:23&#43;02:00</updated>
+    <updated>2020-07-13T12:51:21&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Essential step to set of cf-for-k8s</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
             <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
-            <updated>2020-07-13T12:45:12&#43;02:00</updated>
+            <updated>2020-07-13T12:51:03&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
@@ -172,7 +172,7 @@ OK
 
 TIP: Use &#39;cf target -o &amp;quot;system&amp;quot; -s &amp;quot;dev&amp;quot;&#39; to target new space
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf target -o &amp;quot;system&amp;quot; -s &amp;quot;dev&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;api endpoint:   https://api.system.local-cf.org
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;api endpoint:   https://api.1.2.3.4.xip.io
 api version:    2.152.0
 user:           admin
 org:            system
