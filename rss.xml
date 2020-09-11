@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 11 Sep 2020 16:17:15 &#43;0200</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2020 16:26:38 &#43;0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://maeddes.github.io/rss.xml" />
         
@@ -146,6 +146,8 @@
 Succeeded
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf api --skip-ssl-validation https://api.1.2.3.4.xip.io
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf api --skip-ssl-validation https://api.1.2.3.4.xip.io
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;CF_ISTIO_IP=$(kubectl get svc istio-ingressgateway -n istio-system -o jsonpath=&amp;quot;{.status.loadBalancer.ingress[0].ip}&amp;quot;)
+cf api --skip-ssl-validation https://api.$CF_ISTIO_IP.xip.io
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Setting api endpoint to https://api.1.2.3.4.xip.io...
 OK
 

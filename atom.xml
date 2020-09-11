@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-09-11T16:17:15&#43;02:00</updated>
+    <updated>2020-09-11T16:26:38&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Essential step to set of cf-for-k8s</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
             <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
-            <updated>2020-09-11T16:16:52&#43;02:00</updated>
+            <updated>2020-09-11T16:26:20&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
@@ -137,6 +137,8 @@
 Succeeded
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf api --skip-ssl-validation https://api.1.2.3.4.xip.io
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf api --skip-ssl-validation https://api.1.2.3.4.xip.io
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;CF_ISTIO_IP=$(kubectl get svc istio-ingressgateway -n istio-system -o jsonpath=&amp;quot;{.status.loadBalancer.ingress[0].ip}&amp;quot;)
+cf api --skip-ssl-validation https://api.$CF_ISTIO_IP.xip.io
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Setting api endpoint to https://api.1.2.3.4.xip.io...
 OK
 
