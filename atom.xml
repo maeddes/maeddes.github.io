@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Experimental Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2020-09-11T16:26:38&#43;02:00</updated>
+    <updated>2020-09-11T17:01:16&#43;02:00</updated>
     <id>https://maeddes.github.io/</id>
     <link rel="alternate" type="text/html" href="https://maeddes.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://maeddes.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Essential step to set of cf-for-k8s</title>
             <link rel="alternate" type="text/html" href="https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/" />
             <id>https://maeddes.github.io/posts/2020-07-05-essentials-cf-for-k8s/</id>
-            <updated>2020-09-11T16:26:20&#43;02:00</updated>
+            <updated>2020-09-11T17:00:39&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>maeddes</name>
@@ -195,6 +195,8 @@ No apps found
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&amp;quot;minibroker&amp;quot; has been added to your repositories
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl create namespace minibroker
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;namespace/minibroker created
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm  repo update
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm install  minibroker --namespace minibroker minibroker/minibroker --set &amp;quot;deployServiceCatalog=false&amp;quot; --set &amp;quot;defaultNamespace=minibroker&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf create-service-broker minibroker user pass http://minibroker-minibroker.minibroker.svc.cluster.local
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Creating service broker minibroker as admin...
 OK

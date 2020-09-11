@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 11 Sep 2020 16:26:38 &#43;0200</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2020 17:01:16 &#43;0200</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://maeddes.github.io/rss.xml" />
         
@@ -204,6 +204,8 @@ No apps found
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;&amp;quot;minibroker&amp;quot; has been added to your repositories
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;kubectl create namespace minibroker
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;namespace/minibroker created
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm  repo update
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;helm install  minibroker --namespace minibroker minibroker/minibroker --set &amp;quot;deployServiceCatalog=false&amp;quot; --set &amp;quot;defaultNamespace=minibroker&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;cf create-service-broker minibroker user pass http://minibroker-minibroker.minibroker.svc.cluster.local
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;Creating service broker minibroker as admin...
 OK
